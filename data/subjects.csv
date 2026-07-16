@@ -1,0 +1,201 @@
+subject_id,subject_name,subject_code,department_id,department,semester,credits
+1,Programming in C,CSE101,1,CSE,1,4
+2,Engineering Mathematics I,CSE102,1,CSE,1,4
+3,Engineering Physics,CSE103,1,CSE,1,4
+4,Basic Electrical Engineering,CSE104,1,CSE,1,4
+5,Communication Skills,CSE105,1,CSE,1,4
+6,Python Programming,CSE201,1,CSE,2,4
+7,Engineering Mathematics II,CSE202,1,CSE,2,4
+8,Digital Electronics,CSE203,1,CSE,2,4
+9,Data Structures,CSE204,1,CSE,2,4
+10,Environmental Studies,CSE205,1,CSE,2,4
+11,Object Oriented Programming,CSE301,1,CSE,3,4
+12,Database Management System,CSE302,1,CSE,3,4
+13,Computer Organization,CSE303,1,CSE,3,4
+14,Discrete Mathematics,CSE304,1,CSE,3,4
+15,Operating Systems,CSE305,1,CSE,3,4
+16,Computer Networks,CSE401,1,CSE,4,4
+17,Design and Analysis of Algorithms,CSE402,1,CSE,4,4
+18,Software Engineering,CSE403,1,CSE,4,4
+19,Theory of Computation,CSE404,1,CSE,4,4
+20,Web Technologies,CSE405,1,CSE,4,4
+21,Machine Learning,CSE501,1,CSE,5,4
+22,Artificial Intelligence,CSE502,1,CSE,5,4
+23,Cloud Computing,CSE503,1,CSE,5,4
+24,Compiler Design,CSE504,1,CSE,5,4
+25,Microprocessors,CSE505,1,CSE,5,4
+26,Data Mining,CSE601,1,CSE,6,4
+27,Big Data Analytics,CSE602,1,CSE,6,4
+28,Cyber Security,CSE603,1,CSE,6,4
+29,Internet of Things,CSE604,1,CSE,6,4
+30,Mobile Application Development,CSE605,1,CSE,6,4
+31,Deep Learning,CSE701,1,CSE,7,4
+32,Natural Language Processing,CSE702,1,CSE,7,4
+33,Computer Vision,CSE703,1,CSE,7,4
+34,Blockchain Technology,CSE704,1,CSE,7,4
+35,DevOps,CSE705,1,CSE,7,4
+36,Generative AI,CSE801,1,CSE,8,4
+37,Software Project Management,CSE802,1,CSE,8,4
+38,Ethical Hacking,CSE803,1,CSE,8,4
+39,Distributed Systems,CSE804,1,CSE,8,4
+40,Capstone Project,CSE805,1,CSE,8,4
+41,Programming Fundamentals,IT101,2,IT,1,4
+42,Engineering Mathematics I,IT102,2,IT,1,4
+43,Engineering Physics,IT103,2,IT,1,4
+44,Basic Electrical Engineering,IT104,2,IT,1,4
+45,Communication Skills,IT105,2,IT,1,4
+46,Python Programming,IT201,2,IT,2,4
+47,Engineering Mathematics II,IT202,2,IT,2,4
+48,Digital Electronics,IT203,2,IT,2,4
+49,Web Technologies,IT204,2,IT,2,4
+50,Environmental Studies,IT205,2,IT,2,4
+51,Database Systems,IT301,2,IT,3,4
+52,Computer Organization,IT302,2,IT,3,4
+53,Operating Systems,IT303,2,IT,3,4
+54,Networking Fundamentals,IT304,2,IT,3,4
+55,Object Oriented Programming,IT305,2,IT,3,4
+56,Cloud Computing,IT401,2,IT,4,4
+57,Cyber Security,IT402,2,IT,4,4
+58,Linux Administration,IT403,2,IT,4,4
+59,Software Engineering,IT404,2,IT,4,4
+60,Data Structures,IT405,2,IT,4,4
+61,DevOps,IT501,2,IT,5,4
+62,Data Analytics,IT502,2,IT,5,4
+63,Information Security,IT503,2,IT,5,4
+64,Internet of Things,IT504,2,IT,5,4
+65,Mobile Computing,IT505,2,IT,5,4
+66,Big Data Analytics,IT601,2,IT,6,4
+67,Artificial Intelligence,IT602,2,IT,6,4
+68,Machine Learning,IT603,2,IT,6,4
+69,Data Mining,IT604,2,IT,6,4
+70,Distributed Systems,IT605,2,IT,6,4
+71,Blockchain Technology,IT701,2,IT,7,4
+72,Ethical Hacking,IT702,2,IT,7,4
+73,Cloud Security,IT703,2,IT,7,4
+74,Advanced Networking,IT704,2,IT,7,4
+75,Project Management,IT705,2,IT,7,4
+76,Enterprise Computing,IT801,2,IT,8,4
+77,Full Stack Development,IT802,2,IT,8,4
+78,Software Testing,IT803,2,IT,8,4
+79,Capstone Project,IT804,2,IT,8,4
+80,Industry Internship,IT805,2,IT,8,4
+81,Programming in C,AI101,3,AI,1,4
+82,Engineering Mathematics I,AI102,3,AI,1,4
+83,Engineering Physics,AI103,3,AI,1,4
+84,Basic Electrical Engineering,AI104,3,AI,1,4
+85,Communication Skills,AI105,3,AI,1,4
+86,Python Programming,AI201,3,AI,2,4
+87,Engineering Mathematics II,AI202,3,AI,2,4
+88,Digital Electronics,AI203,3,AI,2,4
+89,Probability and Statistics,AI204,3,AI,2,4
+90,Environmental Studies,AI205,3,AI,2,4
+91,Data Structures,AI301,3,AI,3,4
+92,Object Oriented Programming,AI302,3,AI,3,4
+93,Database Management System,AI303,3,AI,3,4
+94,Artificial Intelligence,AI304,3,AI,3,4
+95,Linear Algebra,AI305,3,AI,3,4
+96,Machine Learning,AI401,3,AI,4,4
+97,Data Mining,AI402,3,AI,4,4
+98,Computer Vision,AI403,3,AI,4,4
+99,Natural Language Processing,AI404,3,AI,4,4
+100,Operating Systems,AI405,3,AI,4,4
+101,Deep Learning,AI501,3,AI,5,4
+102,Neural Networks,AI502,3,AI,5,4
+103,Computer Networks,AI503,3,AI,5,4
+104,Software Engineering,AI504,3,AI,5,4
+105,Cloud Computing,AI505,3,AI,5,4
+106,Reinforcement Learning,AI601,3,AI,6,4
+107,Big Data Analytics,AI602,3,AI,6,4
+108,MLOps,AI603,3,AI,6,4
+109,Internet of Things,AI604,3,AI,6,4
+110,Cyber Security,AI605,3,AI,6,4
+111,Generative AI,AI701,3,AI,7,4
+112,Large Language Models,AI702,3,AI,7,4
+113,AI Ethics,AI703,3,AI,7,4
+114,Robotics,AI704,3,AI,7,4
+115,Data Engineering,AI705,3,AI,7,4
+116,AI Project,AI801,3,AI,8,4
+117,Capstone Project,AI802,3,AI,8,4
+118,AI in Healthcare,AI803,3,AI,8,4
+119,AI in Finance,AI804,3,AI,8,4
+120,Industry Internship,AI805,3,AI,8,4
+121,Engineering Mathematics I,ME101,4,ME,1,4
+122,Engineering Physics,ME102,4,ME,1,4
+123,Engineering Drawing,ME103,4,ME,1,4
+124,Basic Mechanical Engineering,ME104,4,ME,1,4
+125,Communication Skills,ME105,4,ME,1,4
+126,Engineering Mathematics II,ME201,4,ME,2,4
+127,Engineering Chemistry,ME202,4,ME,2,4
+128,Workshop Technology,ME203,4,ME,2,4
+129,Environmental Studies,ME204,4,ME,2,4
+130,Programming in C,ME205,4,ME,2,4
+131,Engineering Mechanics,ME301,4,ME,3,4
+132,Thermodynamics,ME302,4,ME,3,4
+133,Material Science,ME303,4,ME,3,4
+134,Manufacturing Processes,ME304,4,ME,3,4
+135,Fluid Mechanics,ME305,4,ME,3,4
+136,Machine Design,ME401,4,ME,4,4
+137,Heat Transfer,ME402,4,ME,4,4
+138,Theory of Machines,ME403,4,ME,4,4
+139,Strength of Materials,ME404,4,ME,4,4
+140,Hydraulics,ME405,4,ME,4,4
+141,CAD/CAM,ME501,4,ME,5,4
+142,Industrial Engineering,ME502,4,ME,5,4
+143,Production Engineering,ME503,4,ME,5,4
+144,Automobile Engineering,ME504,4,ME,5,4
+145,Robotics,ME505,4,ME,5,4
+146,Finite Element Analysis,ME601,4,ME,6,4
+147,Quality Control,ME602,4,ME,6,4
+148,Mechatronics,ME603,4,ME,6,4
+149,Power Plant Engineering,ME604,4,ME,6,4
+150,CNC Technology,ME605,4,ME,6,4
+151,Renewable Energy,ME701,4,ME,7,4
+152,Advanced Manufacturing,ME702,4,ME,7,4
+153,Supply Chain Management,ME703,4,ME,7,4
+154,Project Management,ME704,4,ME,7,4
+155,Industrial Automation,ME705,4,ME,7,4
+156,Capstone Project,ME801,4,ME,8,4
+157,Industry Internship,ME802,4,ME,8,4
+158,Operations Management,ME803,4,ME,8,4
+159,Energy Engineering,ME804,4,ME,8,4
+160,Entrepreneurship,ME805,4,ME,8,4
+161,Engineering Mathematics I,CE101,5,CE,1,4
+162,Engineering Physics,CE102,5,CE,1,4
+163,Engineering Drawing,CE103,5,CE,1,4
+164,Basic Civil Engineering,CE104,5,CE,1,4
+165,Communication Skills,CE105,5,CE,1,4
+166,Engineering Mathematics II,CE201,5,CE,2,4
+167,Engineering Chemistry,CE202,5,CE,2,4
+168,Surveying I,CE203,5,CE,2,4
+169,Environmental Studies,CE204,5,CE,2,4
+170,Programming in C,CE205,5,CE,2,4
+171,Strength of Materials,CE301,5,CE,3,4
+172,Building Materials,CE302,5,CE,3,4
+173,Fluid Mechanics,CE303,5,CE,3,4
+174,Engineering Geology,CE304,5,CE,3,4
+175,Surveying II,CE305,5,CE,3,4
+176,Structural Analysis,CE401,5,CE,4,4
+177,Concrete Technology,CE402,5,CE,4,4
+178,Transportation Engineering,CE403,5,CE,4,4
+179,Geotechnical Engineering,CE404,5,CE,4,4
+180,Hydrology,CE405,5,CE,4,4
+181,Design of Reinforced Concrete Structures,CE501,5,CE,5,4
+182,Steel Structures,CE502,5,CE,5,4
+183,Environmental Engineering,CE503,5,CE,5,4
+184,Construction Materials,CE504,5,CE,5,4
+185,Estimation and Costing,CE505,5,CE,5,4
+186,Foundation Engineering,CE601,5,CE,6,4
+187,Water Resources Engineering,CE602,5,CE,6,4
+188,Construction Management,CE603,5,CE,6,4
+189,Highway Engineering,CE604,5,CE,6,4
+190,Bridge Engineering,CE605,5,CE,6,4
+191,Earthquake Engineering,CE701,5,CE,7,4
+192,Advanced Structural Design,CE702,5,CE,7,4
+193,Urban Planning,CE703,5,CE,7,4
+194,Project Management,CE704,5,CE,7,4
+195,Quantity Surveying,CE705,5,CE,7,4
+196,Capstone Project,CE801,5,CE,8,4
+197,Industry Internship,CE802,5,CE,8,4
+198,Green Building Technology,CE803,5,CE,8,4
+199,Smart Cities,CE804,5,CE,8,4
+200,Professional Ethics,CE805,5,CE,8,4
