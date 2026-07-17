@@ -4,6 +4,6 @@
 -- Purpose: Create and select the database
 -- ==========================================
 
-CREATE DATABASE college_erp;
+CREATE DATABASE IF NOT EXISTS college_erp;
 
 USE college_erp;

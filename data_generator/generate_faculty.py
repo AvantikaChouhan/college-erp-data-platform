@@ -49,17 +49,17 @@ def generate_faculty(department, position):
 
     # Create Faculty Dictionary
     faculty_member = {
-        "faculty_name": name,
-        "faculty_contact": phone,
-        "faculty_email": email,
-        "department_id": department_id,
-        "position": position,
-        "salary": salary,
-        "dob": dob,
-        "gender": gender,
-        "address": address
-    }
-
+    "faculty_name": name,
+    "faculty_contact": phone,
+    "faculty_email": email,
+    "department": department,
+    "department_id": department_id,
+    "position": position,
+    "salary": salary,
+    "dob": dob,
+    "gender": gender,
+    "address": address
+}
     return faculty_member
 
 

@@ -46,10 +46,9 @@ for _, student in students_df.iterrows():
 
     else:
 
-        company = None
+        company = "N/A"
 
-        package_lpa = None
-
+        package_lpa = 0.00
     placement = {
 
         "placement_id": placement_id,

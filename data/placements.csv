@@ -1,65 +1,65 @@
 placement_id,roll_no,company,package_lpa,placement_status
-1,AI24011,,,Not Placed
-2,CSE24022,,,Not Placed
-3,CE24029,Infosys,6.25,Placed
-4,IT24035,Microsoft,3.34,Placed
-5,CSE24038,,,Not Placed
-6,CE24055,Capgemini,13.75,Placed
-7,CSE24064,,,Not Placed
-8,ME24072,,,Not Placed
-9,CSE24079,Microsoft,14.4,Placed
-10,IT24085,,,Not Placed
-11,IT24086,Capgemini,12.24,Placed
-12,ME24097,,,Not Placed
-13,AI24100,Infosys,12.81,Placed
-14,CSE24102,,,Not Placed
-15,ME24124,,,Not Placed
-16,CSE24132,,,Not Placed
-17,IT24139,Accenture,6.61,Placed
-18,AI24148,Cognizant,4.98,Placed
-19,IT24152,,,Not Placed
-20,AI24195,Wipro,14.97,Placed
-21,ME24202,,,Not Placed
-22,IT24208,Infosys,14.91,Placed
-23,IT24211,,,Not Placed
-24,IT24229,TCS,7.64,Placed
-25,ME24235,,,Not Placed
-26,CE24238,,,Not Placed
-27,IT24241,,,Not Placed
-28,CE24244,,,Not Placed
-29,ME24248,Amazon,9.68,Placed
-30,CSE24252,,,Not Placed
-31,ME24262,Wipro,8.51,Placed
-32,ME24277,Microsoft,10.05,Placed
-33,AI24288,,,Not Placed
-34,AI24294,,,Not Placed
-35,CE24300,Microsoft,12.02,Placed
-36,IT24301,,,Not Placed
-37,IT24311,Accenture,14.49,Placed
-38,AI24312,Capgemini,5.33,Placed
-39,CSE24325,,,Not Placed
-40,IT24333,Microsoft,13.61,Placed
-41,ME24339,Capgemini,3.71,Placed
-42,CE24353,,,Not Placed
-43,ME24356,,,Not Placed
-44,AI24363,,,Not Placed
-45,AI24368,Capgemini,13.27,Placed
-46,IT24369,Cognizant,6.78,Placed
-47,CE24388,Amazon,3.76,Placed
-48,IT24394,Infosys,9.33,Placed
-49,AI24395,Wipro,4.93,Placed
-50,CE24400,Infosys,9.71,Placed
-51,IT24411,Amazon,13.41,Placed
-52,CSE24415,Amazon,7.79,Placed
-53,ME24416,Microsoft,6.65,Placed
-54,AI24419,Capgemini,5.39,Placed
-55,AI24425,,,Not Placed
-56,ME24432,Capgemini,13.14,Placed
-57,CE24434,,,Not Placed
-58,ME24445,,,Not Placed
-59,AI24447,Accenture,9.14,Placed
-60,IT24458,,,Not Placed
-61,ME24471,,,Not Placed
-62,IT24479,,,Not Placed
-63,CSE24492,Microsoft,12.83,Placed
-64,ME24493,,,Not Placed
+1,AI24011,Cognizant,8.85,Placed
+2,CSE24022,N/A,0.0,Not Placed
+3,CE24029,Microsoft,3.64,Placed
+4,IT24035,Amazon,4.09,Placed
+5,CSE24038,N/A,0.0,Not Placed
+6,CE24055,Accenture,10.24,Placed
+7,CSE24064,N/A,0.0,Not Placed
+8,ME24072,Capgemini,11.09,Placed
+9,CSE24079,Amazon,11.4,Placed
+10,IT24085,Amazon,13.38,Placed
+11,IT24086,Infosys,6.29,Placed
+12,ME24097,Amazon,9.83,Placed
+13,AI24100,N/A,0.0,Not Placed
+14,CSE24102,N/A,0.0,Not Placed
+15,ME24124,N/A,0.0,Not Placed
+16,CSE24132,N/A,0.0,Not Placed
+17,IT24139,Capgemini,12.91,Placed
+18,AI24148,N/A,0.0,Not Placed
+19,IT24152,N/A,0.0,Not Placed
+20,AI24195,N/A,0.0,Not Placed
+21,ME24202,Accenture,8.49,Placed
+22,IT24208,N/A,0.0,Not Placed
+23,IT24211,Capgemini,13.57,Placed
+24,IT24229,TCS,6.48,Placed
+25,ME24235,N/A,0.0,Not Placed
+26,CE24238,TCS,6.07,Placed
+27,IT24241,N/A,0.0,Not Placed
+28,CE24244,N/A,0.0,Not Placed
+29,ME24248,N/A,0.0,Not Placed
+30,CSE24252,N/A,0.0,Not Placed
+31,ME24262,N/A,0.0,Not Placed
+32,ME24277,Wipro,3.77,Placed
+33,AI24288,Infosys,5.55,Placed
+34,AI24294,N/A,0.0,Not Placed
+35,CE24300,N/A,0.0,Not Placed
+36,IT24301,N/A,0.0,Not Placed
+37,IT24311,N/A,0.0,Not Placed
+38,AI24312,N/A,0.0,Not Placed
+39,CSE24325,Infosys,12.15,Placed
+40,IT24333,N/A,0.0,Not Placed
+41,ME24339,N/A,0.0,Not Placed
+42,CE24353,N/A,0.0,Not Placed
+43,ME24356,Cognizant,12.66,Placed
+44,AI24363,N/A,0.0,Not Placed
+45,AI24368,N/A,0.0,Not Placed
+46,IT24369,Accenture,10.96,Placed
+47,CE24388,Amazon,5.02,Placed
+48,IT24394,N/A,0.0,Not Placed
+49,AI24395,N/A,0.0,Not Placed
+50,CE24400,Amazon,13.55,Placed
+51,IT24411,N/A,0.0,Not Placed
+52,CSE24415,N/A,0.0,Not Placed
+53,ME24416,Microsoft,6.7,Placed
+54,AI24419,Capgemini,12.43,Placed
+55,AI24425,N/A,0.0,Not Placed
+56,ME24432,N/A,0.0,Not Placed
+57,CE24434,N/A,0.0,Not Placed
+58,ME24445,Wipro,3.27,Placed
+59,AI24447,N/A,0.0,Not Placed
+60,IT24458,N/A,0.0,Not Placed
+61,ME24471,Cognizant,12.34,Placed
+62,IT24479,TCS,14.48,Placed
+63,CSE24492,N/A,0.0,Not Placed
+64,ME24493,Infosys,5.18,Placed
