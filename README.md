@@ -85,7 +85,7 @@ Pipeline:
 The pipeline copies CSV files from the ADLS Gen2 Raw container to the Processed container.
 
 ### Azure Data Flow
-
+```text
 Raw CSV Files
       ↓
 ADLS Gen2 - Raw
@@ -95,7 +95,7 @@ Azure Data Factory
 ADLS Gen2 - Processed
 
 ## Repository Structure
-
+```text
 college-erp-data-platform/
 │
 ├── azure/
