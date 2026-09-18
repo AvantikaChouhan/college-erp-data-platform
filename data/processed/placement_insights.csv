@@ -1,0 +1,6 @@
+department,total_students,placed_students,unplaced_students,placement_rate,avg_marks_placed,avg_marks_unplaced,avg_attendance_placed,avg_attendance_unplaced,avg_package_lpa,highest_package_lpa
+ME,108,9,99,8.33,60.27,57.14,72.31,70.25,8.15,12.66
+IT,108,8,100,7.41,63.1,59.44,68.45,71.05,10.27,14.48
+CE,81,5,76,6.17,46.64,61.13,72.84,69.04,7.7,13.55
+AI,97,3,94,3.09,45.87,57.67,77.67,70.06,8.94,12.43
+CSE,106,2,104,1.89,50.2,53.88,68.2,69.59,11.78,12.15

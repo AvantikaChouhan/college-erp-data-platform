@@ -1,0 +1,6 @@
+risk_category,students,avg_marks,avg_attendance,total_pending_fees
+Moderate Risk,171,67.33,69.13,8443294
+Academic Risk Only,137,54.11,68.83,0
+Critical Risk,106,30.54,66.11,5517473
+Fee Pending Only,56,78.69,78.7,3051118
+Low Risk,30,73.99,79.83,0
