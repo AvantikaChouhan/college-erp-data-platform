@@ -93,9 +93,9 @@ ADLS Gen2 - Raw
 Azure Data Factory
       ↓
 ADLS Gen2 - Processed
-
-## Repository Structure
 ```text
+## Repository Structure
+
 college-erp-data-platform/
 │
 ├── azure/
