@@ -1,47 +1,51 @@
 # College ERP Analytics Platform
 
-## Project Overview
+An end-to-end **Data Engineering and Analytics Platform** that simulates and analyzes academic and administrative data of a college.
 
-This project is an end-to-end College ERP Data Engineering and Analytics platform that simulates academic and administrative data of a college.
-
-The project generates realistic college datasets, stores relational data in MySQL, performs data processing using PySpark, uses Azure services for cloud storage and data movement, and performs analytical processing in Databricks.
+The project covers the complete workflow from **data generation → database → cloud data lake → data processing → analytics → dashboard**.
 
 ## Architecture
 
+```text
 Python
-↓
+   ↓
 CSV Datasets
-↓
+   ↓
 MySQL
-↓
+   ↓
 Azure Data Lake Storage Gen2
-↓
+   ↓
 Azure Data Factory
-↓
+   ↓
 Processed Data
-↓
+   ↓
 Databricks Free Edition + PySpark
-↓
-Delta Table
-↓
+   ↓
+Delta Lake
+   ↓
 Analytical Datasets
+   ↓
+Streamlit Dashboard
+```
 
 ## Tech Stack
 
 - Python
 - MySQL
 - SQL
-- Git
-- GitHub
 - Azure Data Lake Storage Gen2
 - Azure Data Factory
 - PySpark
-- Databricks
+- Databricks Free Edition
 - Delta Lake
+- Streamlit
+- Pandas
+- Plotly
+- Git & GitHub
 
 ## Datasets
 
-The project contains the following College ERP datasets:
+The project works with seven College ERP datasets:
 
 - Students
 - Faculty
@@ -51,86 +55,146 @@ The project contains the following College ERP datasets:
 - Fees
 - Placements
 
-## Azure Data Platform
+The datasets are generated using Python and stored in MySQL for relational analysis.
 
-### Azure Data Lake Storage Gen2
+## Cloud Data Engineering
 
-Storage Account:
+Azure is used for cloud storage and data movement.
 
-`collegeerpdata2026`
+**Azure Data Lake Storage Gen2**
 
-Region:
-
-`East Asia`
-
-Containers:
-
-- `raw`
-- `processed`
-
-The Raw container stores the source College ERP CSV datasets.
-
-The Processed container stores the data after the Azure Data Factory pipeline execution.
-
-### Azure Data Factory
-
-Data Factory:
-
-`collegeerp-adf-2026`
-
-Pipeline:
-
-`PL_Copy_Raw_Data`
-
-The pipeline copies CSV files from the ADLS Gen2 Raw container to the Processed container.
-
-### Azure Data Flow
 ```text
-Raw CSV Files
-      ↓
-ADLS Gen2 - Raw
-      ↓
-Azure Data Factory
-      ↓
-ADLS Gen2 - Processed
-```text
-## Repository Structure
+Storage Account: collegeerpdata2026
+Containers: raw, processed
+```
 
+**Azure Data Factory**
+
+```text
+Data Factory: collegeerp-adf-2026
+Pipeline: PL_Copy_Raw_Data
+```
+
+The ADF pipeline moves CSV files from the **Raw** layer to the **Processed** layer.
+
+## Data Processing & Analytics
+
+PySpark is used to transform the ERP datasets and create a unified student-level analytical dataset.
+
+Databricks Free Edition is used for Spark and SQL-based analytics.
+
+Main Delta table:
+
+```text
+collegeerp_student_analytics
+```
+
+The analytical dataset contains:
+
+```text
+500 students
+14 analytical columns
+```
+
+## Key Insights
+
+| Metric | Result |
+|---|---:|
+| Total Students | 500 |
+| Average Attendance | 70.12% |
+| Average Marks | 57.58 |
+| Students Below 75% Attendance | 361 |
+| Students Below 50 Marks | 210 |
+| Placed Students | 27 |
+| Placement Rate | 5.40% |
+| Average Package | 9.05 LPA |
+| Highest Package | 14.48 LPA |
+| Total Fees Collected | 20,488,115 |
+| Total Pending Fees | 17,011,885 |
+
+## Streamlit Dashboard
+
+The project includes an interactive Streamlit dashboard for exploring:
+
+- Overall KPIs
+- Academics & Attendance
+- Fees & Risk
+- Placements
+- Departments
+- Student-level insights
+- Recruiter and package analysis
+
+### Dashboard Preview
+
+![College ERP Analytics Dashboard](screenshots/dashboard_overview.png)
+
+### Run the Dashboard
+
+```bash
+cd dashboard
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The dashboard runs locally at:
+
+```text
+http://localhost:8501
+```
+
+## Project Structure
+
+```text
 college-erp-data-platform/
 │
 ├── azure/
-│   ├── README.md
-│   ├── adls_setup.md
-│   └── adf_pipeline.md
+├── dashboard/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── data/
 │
 ├── data/
-│   ├── attendance.csv
-│   ├── faculty.csv
-│   ├── fees.csv
-│   ├── placements.csv
-│   ├── results.csv
-│   ├── students.csv
-│   ├── subjects.csv
-│   └── processed/
-│
 ├── data_generator/
-│
 ├── database/
-│
-│
-├── pyspark/
-│   ├── 01_read_students.py
-│   ├── 02_transform_students.py
-│   ├── 03_transform_attendance.py
-│   ├── 04_transform_results.py
-│   ├── 05_transform_fees.py
-│   ├── 06_transform_placements.py
-│   ├── 07_create_analytical_dataset.py
-│   ├── 08_write_analytical_dataset.py
-│   └── CollegeERP_Analytical_Dataset.ipynb
-│
-│
 ├── docs/
+├── pyspark/
+├── screenshots/
+│   └── dashboard_overview.png
 │
 ├── README.md
 └── requirements.txt
+```
+
+## Documentation
+
+Detailed project documentation covering datasets, MySQL, Azure, ADF, PySpark, Databricks, Delta Lake, KPIs, analytical insights and dashboard implementation is available in:
+
+```text
+docs/project_documentation.md
+```
+
+## Project Status
+
+- ✅ Python Data Generation
+- ✅ MySQL Database
+- ✅ SQL Analysis
+- ✅ Azure ADLS Gen2
+- ✅ Azure Data Factory
+- ✅ PySpark Transformations
+- ✅ Databricks Free Edition
+- ✅ Delta Lake
+- ✅ Analytical Datasets
+- ✅ KPI & Insight Generation
+- ✅ Streamlit Dashboard
+- ✅ Git & GitHub
+
+## Author
+
+**Avantika Chouhan**
+
+GitHub:  
+https://github.com/AvantikaChouhan/college-erp-data-platform
+
+## License
+
+This project is created for educational and portfolio purposes.
